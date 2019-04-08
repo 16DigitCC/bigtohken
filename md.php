@@ -39,9 +39,9 @@ function getMD5(){
 
 
 
-for ($i = 1; $i <= 1; $i++){
+for ($i = 1; $i <= 10; $i++){
 $md5[$i] = getMD5();
-sleep(1);
+sleep(10);
 }
 
 
