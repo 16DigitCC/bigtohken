@@ -3,7 +3,7 @@ clear
 while true
 do
 php md.php
-sleep 100
+sleep 1
 php dor.php
 rm MD5CLI.txt
 done
