@@ -3,7 +3,7 @@
 error_reporting(0);
 function getMD5(){
 
-	 $params ="key=a2fbd2e0eaabf7f102ceea8adf30484d&email=1&reff=08AI1GCAA&submit=";
+	 $params ="key=GANTITOKENLO&email=1&reff=GANTIREFFLO&submit=";
 
 	 $ch = curl_init();
 	 curl_setopt($ch, CURLOPT_URL,'https://api.ekawijanarka.info/regisreff/bigtoken/index.php');
